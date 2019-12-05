@@ -1,0 +1,218 @@
+/*
+Farben:
+Dunkelblau:			#080872
+hover:				#d9d9d9
+Flieder:			#b7b7ec
+Dunkel Flieder:		#9a9acf
+
+ToDo:
+- Header
+- Social BAR
+- Menü
+- Media Queries
+
+- mehr Seiten
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+a:link, a:visited, a:active {
+	color: #010101;
+}
+body {
+	font-family: 'Open Sans', monospace;
+	font-size: 1.0em;
+	background: #fafafa;
+	color: #010101;
+}
+header{
+	width: 98%;
+	height: 250px;
+	display: block;
+	margin: 0 auto auto 20px;
+	border: 1px solid red;
+}
+	div.kopf {
+		float: left;
+		border: 1px solid #ff84c1;
+		width: calc(100% / 3);
+	}
+	a.logo {
+		display: block;
+}
+	div.social {
+		display: block;
+		padding: 5px 10px 10px 5px;
+	}
+	div.social img {
+		width: 48px;
+	}
+	div.social a:hover {
+		width: 50px;
+	}
+
+
+ul.navi {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #080872;
+}
+li.navi {
+	float: left;
+}
+li.navi a {
+	display: block;
+	color: white !important;
+	text-align: center;
+	padding: 8px 12px;
+	text-decoration: none;
+	text-align: left;
+}
+li.navi a:hover {
+	background-color: #d9d9d9;
+	color: #010101 !important;
+}
+
+ul.subnavi {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #08087267;
+}
+li.subnavi {
+	background-color: gray;
+	border: 1px solid lightgray;
+}
+li.subnavi a {
+	display: block;
+	color: white !important;
+	text-align: center;
+	padding: 4px 6px;
+	text-decoration: none;
+	text-align: left;
+}
+li.subnavi a:hover {
+	background-color: white;
+	color: #010101 !important;
+}
+
+
+content {
+	width: 98%;
+	height: calc(100% - 250px);
+	padding: 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #03a9f4;
+}
+div.dogs {
+	margin-top: 20px;
+}
+div.dogs div.dog {
+	width: 580px;
+	float: left;
+	display: block;
+	text-decoration: none;
+	color: black;
+	background: #ffffff;
+	border: 1;
+	border-radius: 5px;
+	box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+	margin: 20px 20px 0;
+	overflow: hidden;
+}
+a.dog_link{
+	text-decoration: none;
+	color: black;
+}
+a.dog_link:hover{
+	color: #9a9acf;
+}
+img.dog_img {
+	float: left;
+	width: 200px;
+	height: auto;
+	padding: 3px;
+	display: block;
+	border: 3px dotted #9a9acf;
+	margin: 22px 0 22px 22px;
+}
+table.dog_data {
+	float: right;
+	display: block;
+	width: 300px;
+	margin: 20px 20px 20px 0;
+	border: 0;
+}
+table.dog_data th {
+	vertical-align: top;
+	text-align: left;
+	font-size: 1.2em;
+}
+table.dog_data td {
+	vertical-align: top;
+	text-align: left;
+	border-bottom: 1px solid #b7b7ec;
+	padding: 5px;
+	white-space: wrap; overflow: hidden; text-overflow: "..$";
+}
+div.dog_btn a {
+	clear: both;
+	display: block;
+	border-top: 1px solid #9a9acf;
+	border-right: 1px solid #9a9acf;
+	border-bottom: 3px solid #9a9acf;
+	border-left: 1px solid #9a9acf;
+	border-radius: 2px;
+	background-color: #b7b7ec;
+	text-align: center;
+	color: #010101;
+	text-decoration: none;
+	padding: 5px;
+	box-shadow: 4px 4px 4px #fafafa;
+}
+div.dog_btn a:hover {
+	background-color: #9a9acf;
+	color: #010101;
+	box-shadow: 0px 0px 0px 0px;
+}
+
+footer {
+	width: 90%;
+	height: 30px;
+	margin: 0 20px 0 20px;
+	border: 1px solid red;
+	margin-left: auto;
+	margin-right: auto;
+}
+a.tothetop {
+	position: fixed;
+	text-align: center;
+	bottom: 10px;
+	right: 10px;
+}
+
+/* # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # */
+/* # # # # # # # # # Media Querries  # # # # # # # # # # # # # */
+/* # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # */
+
+@media only screen and (max-width: 630px) {
+	/*
+	- Header Kleiner
+		- Menü Knopf?
+	- Menü
+	- Karten Hochkannt
+		- Bild oben
+		- Data mitte
+		- Knöpfe unten
+	
+	*/
+}

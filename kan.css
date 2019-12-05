@@ -1,0 +1,60 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	/*font-family: 'Dancing Script', cursive;*/
+	font-size: 0.8em;
+	width: 100%;
+	background-color: #E0E0E0;
+}
+div {
+	display: block;
+	padding: 3px;
+}
+div.complete {	/*Content flaeche*/
+	border: 1px solid blue;
+}
+div.column {	/*Spalte*/
+	border: 2px solid #0a0c75;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 300px;
+	height: 70%;
+}
+	div.new_col {
+		background-image: url("new_column.png");
+		background-repeat: no-repeat;
+		background-color: #cccccc;
+		padding: 0px;
+		width: 300px;
+		height: 240px;
+	}
+	div.new_col:hover {
+		background-image: url("hov_new_column.png");
+		background-repeat: no-repeat;
+		background-color: #cccccc;
+	}
+div.entry {	/*Eintrag in Spalte*/
+	border: 1px solid #2f8b18;
+	border-radius: 1px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+div.entry p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+div.neu_entry {	/*Button neuer Eintrag in Spalte*/
+	border: 3px solid #CC0000;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+div.new {	/*Button neue Spalte*/
+	border: 3px solid #CC0000;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
